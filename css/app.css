@@ -1,0 +1,114 @@
+html, body {
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    line-height: 1.5em;
+}
+
+body {
+    color: #666;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+
+body, section.chart {
+    background-color: rgb(245, 229, 205);
+    background-image:
+        -moz-linear-gradient(left, rgba(206, 182, 147, 1) 0px, rgba(245, 229, 205, 0) 1px, rgba(245, 229, 205, 0) 100%),
+        -moz-linear-gradient(top, rgba(206, 182, 147, 1) 0px, rgba(245, 229, 205, 0) 1px, rgba(245, 229, 205, 0) 100%),
+        -moz-linear-gradient(top, rgba(206, 182, 147, 0.5) 0px, rgba(245, 229, 205, 0) 1px, rgba(245, 229, 205, 0) 100%)
+    ;
+    background-image:
+        -webkit-linear-gradient(left, rgba(206, 182, 147, 1) 0px, rgba(245, 229, 205, 0) 1px, rgba(245, 229, 205, 0) 100%),
+        -webkit-linear-gradient(top, rgba(206, 182, 147, 1) 0px, rgba(245, 229, 205, 0) 1px, rgba(245, 229, 205, 0) 100%),
+        -webkit-linear-gradient(top, rgba(206, 182, 147, 0.5) 0px, rgba(245, 229, 205, 0) 1px, rgba(245, 229, 205, 0) 100%)
+    ;
+    background-size: 50px 50px;
+    background-position: -1px 0px;
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 10px;
+    }
+}
+
+section {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 25px 0;
+}
+
+section.white {
+    background: #fff;
+}
+
+section.chart {
+    padding-bottom: 51px;
+}
+
+section.chart.author {
+    padding-top: 60px;
+    font-size: 15px;
+    padding-bottom: 9px;
+}
+
+inner, center {
+    display: block;
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 800px;
+}
+
+h1 {
+    font-size: 2.5em;
+    line-height: 1em;
+}
+
+h2 {
+    font-size: 1.5em;
+    line-height: 1em;
+}
+
+lighten {
+    opacity: 0.6;
+}
+
+#example-1, #example-2 {
+    height: 55px;
+    display: block;
+    margin-top: 20px;
+}
+
+rect {
+    fill: rgba(206, 182, 147, 1);
+    stroke: rgba(255, 255, 255, 0);
+}
+
+iframe {
+    border: 0;
+}
+
+.iframe-example {
+    overflow: hidden;
+    margin: 0 auto;
+    padding-top: 25px;
+    margin-bottom: -4px;
+}
+
+.iframe-example iframe {
+    height: 620px;
+    width: 610px;
+    opacity: 0;
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -webkit-transition: opacity 0.4s;
+    -moz-transition: opacity 0.4s;
+}
+
+section.chart.author .iframe-example {
+    margin-top: -33px;
+    margin-bottom: 38px;
+}

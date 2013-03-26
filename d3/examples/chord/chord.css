@@ -1,0 +1,13 @@
+#chart {
+  font: 10px sans-serif;
+}
+
+.chord path {
+  fill-opacity: .67;
+  stroke: transparent;
+  stroke-width: .5px;
+}
+
+text {
+    fill: rgba(106, 82, 47, 1);
+}

@@ -1,0 +1,19 @@
+svg {
+  overflow: hidden;
+}
+
+path {
+  fill: rgba(121, 100, 70, 1);
+  stroke: rgba(206, 182, 147, 1);
+  stroke-width: .5px;
+}
+
+circle {
+  fill: rgba(206, 182, 147, 1);
+  stroke: #fff;
+  pointer-events: none;
+}
+
+svg {
+    bodrer: 0;
+}
